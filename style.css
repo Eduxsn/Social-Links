@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #bb99dd;
+  }
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainContent {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profilePhoto > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid #bb99dd;
+    padding: 4px;
+}
+
+.socialLink {
+    color: #bb99dd;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.buttonsLink {
+    margin-top: 25px;
+}
+
+.links {
+    border: 3px solid #bb99dd;
+    padding: 12px 140px;
+    border-radius: 4px;
+    margin: 12px 0px;
+    color: #bb99dd;
+    font-weight: bold;
+}
+
+.socialLinks {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.socialLinks > img {
+    margin: 0px 10px;
+    width: 24px;
+    height: 24px;
+}
